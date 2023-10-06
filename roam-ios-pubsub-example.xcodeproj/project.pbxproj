@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F5BCFE2AB1BC7A001B7587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F5BCFD2AB1BC7A001B7587 /* AppDelegate.swift */; };
+		54F5BD002AB1BC7A001B7587 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F5BCFF2AB1BC7A001B7587 /* SceneDelegate.swift */; };
+		54F5BD022AB1BC7A001B7587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F5BD012AB1BC7A001B7587 /* ViewController.swift */; };
+		54F5BD052AB1BC7A001B7587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F5BD032AB1BC7A001B7587 /* Main.storyboard */; };
+		54F5BD072AB1BC7A001B7587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F5BD062AB1BC7A001B7587 /* Assets.xcassets */; };
+		54F5BD0A2AB1BC7A001B7587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F5BD082AB1BC7A001B7587 /* LaunchScreen.storyboard */; };
+		54F5BD2E2AB1BE87001B7587 /* LocationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F5BD2D2AB1BE87001B7587 /* LocationTracker.swift */; };
+		D69596142ACFD11A00C30CCA /* roam-ios in Frameworks */ = {isa = PBXBuildFile; productRef = D69596132ACFD11A00C30CCA /* roam-ios */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54F5BD112AB1BC7A001B7587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F5BCF22AB1BC7A001B7587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F5BCF92AB1BC7A001B7587;
+			remoteInfo = "Yodda-Roam-SDK-Demo";
+		};
+		54F5BD1B2AB1BC7A001B7587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F5BCF22AB1BC7A001B7587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F5BCF92AB1BC7A001B7587;
+			remoteInfo = "Yodda-Roam-SDK-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54F5BCFA2AB1BC7A001B7587 /* roam-ios-pubsub-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "roam-ios-pubsub-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F5BCFD2AB1BC7A001B7587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54F5BCFF2AB1BC7A001B7587 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54F5BD012AB1BC7A001B7587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54F5BD042AB1BC7A001B7587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54F5BD062AB1BC7A001B7587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54F5BD092AB1BC7A001B7587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54F5BD0B2AB1BC7A001B7587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F5BD102AB1BC7A001B7587 /* roam-ios-pubsub-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "roam-ios-pubsub-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F5BD1A2AB1BC7A001B7587 /* roam-ios-pubsub-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "roam-ios-pubsub-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F5BD2D2AB1BE87001B7587 /* LocationTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTracker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F5BCF72AB1BC7A001B7587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69596142ACFD11A00C30CCA /* roam-ios in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F5BD0D2AB1BC7A001B7587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F5BD172AB1BC7A001B7587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54F5BCF12AB1BC7A001B7587 = {
+			isa = PBXGroup;
+			children = (
+				54F5BCFC2AB1BC7A001B7587 /* roam-ios-pubsub-example */,
+				54F5BCFB2AB1BC7A001B7587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54F5BCFB2AB1BC7A001B7587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F5BCFA2AB1BC7A001B7587 /* roam-ios-pubsub-example.app */,
+				54F5BD102AB1BC7A001B7587 /* roam-ios-pubsub-exampleTests.xctest */,
+				54F5BD1A2AB1BC7A001B7587 /* roam-ios-pubsub-exampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F5BCFC2AB1BC7A001B7587 /* roam-ios-pubsub-example */ = {
+			isa = PBXGroup;
+			children = (
+				54F5BCFD2AB1BC7A001B7587 /* AppDelegate.swift */,
+				54F5BD2D2AB1BE87001B7587 /* LocationTracker.swift */,
+				54F5BCFF2AB1BC7A001B7587 /* SceneDelegate.swift */,
+				54F5BD012AB1BC7A001B7587 /* ViewController.swift */,
+				54F5BD032AB1BC7A001B7587 /* Main.storyboard */,
+				54F5BD062AB1BC7A001B7587 /* Assets.xcassets */,
+				54F5BD082AB1BC7A001B7587 /* LaunchScreen.storyboard */,
+				54F5BD0B2AB1BC7A001B7587 /* Info.plist */,
+			);
+			path = "roam-ios-pubsub-example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54F5BCF92AB1BC7A001B7587 /* roam-ios-pubsub-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F5BD242AB1BC7A001B7587 /* Build configuration list for PBXNativeTarget "roam-ios-pubsub-example" */;
+			buildPhases = (
+				54F5BCF62AB1BC7A001B7587 /* Sources */,
+				54F5BCF72AB1BC7A001B7587 /* Frameworks */,
+				54F5BCF82AB1BC7A001B7587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "roam-ios-pubsub-example";
+			packageProductDependencies = (
+				D69596132ACFD11A00C30CCA /* roam-ios */,
+			);
+			productName = "Yodda-Roam-SDK-Demo";
+			productReference = 54F5BCFA2AB1BC7A001B7587 /* roam-ios-pubsub-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54F5BD0F2AB1BC7A001B7587 /* roam-ios-pubsub-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F5BD272AB1BC7A001B7587 /* Build configuration list for PBXNativeTarget "roam-ios-pubsub-exampleTests" */;
+			buildPhases = (
+				54F5BD0C2AB1BC7A001B7587 /* Sources */,
+				54F5BD0D2AB1BC7A001B7587 /* Frameworks */,
+				54F5BD0E2AB1BC7A001B7587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F5BD122AB1BC7A001B7587 /* PBXTargetDependency */,
+			);
+			name = "roam-ios-pubsub-exampleTests";
+			productName = "Yodda-Roam-SDK-DemoTests";
+			productReference = 54F5BD102AB1BC7A001B7587 /* roam-ios-pubsub-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54F5BD192AB1BC7A001B7587 /* roam-ios-pubsub-exampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F5BD2A2AB1BC7A001B7587 /* Build configuration list for PBXNativeTarget "roam-ios-pubsub-exampleUITests" */;
+			buildPhases = (
+				54F5BD162AB1BC7A001B7587 /* Sources */,
+				54F5BD172AB1BC7A001B7587 /* Frameworks */,
+				54F5BD182AB1BC7A001B7587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F5BD1C2AB1BC7A001B7587 /* PBXTargetDependency */,
+			);
+			name = "roam-ios-pubsub-exampleUITests";
+			productName = "Yodda-Roam-SDK-DemoUITests";
+			productReference = 54F5BD1A2AB1BC7A001B7587 /* roam-ios-pubsub-exampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54F5BCF22AB1BC7A001B7587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					54F5BCF92AB1BC7A001B7587 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					54F5BD0F2AB1BC7A001B7587 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 54F5BCF92AB1BC7A001B7587;
+					};
+					54F5BD192AB1BC7A001B7587 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 54F5BCF92AB1BC7A001B7587;
+					};
+				};
+			};
+			buildConfigurationList = 54F5BCF52AB1BC7A001B7587 /* Build configuration list for PBXProject "roam-ios-pubsub-example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54F5BCF12AB1BC7A001B7587;
+			packageReferences = (
+				D69596122ACFD11A00C30CCA /* XCRemoteSwiftPackageReference "roam-ios" */,
+			);
+			productRefGroup = 54F5BCFB2AB1BC7A001B7587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F5BCF92AB1BC7A001B7587 /* roam-ios-pubsub-example */,
+				54F5BD0F2AB1BC7A001B7587 /* roam-ios-pubsub-exampleTests */,
+				54F5BD192AB1BC7A001B7587 /* roam-ios-pubsub-exampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54F5BCF82AB1BC7A001B7587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F5BD0A2AB1BC7A001B7587 /* LaunchScreen.storyboard in Resources */,
+				54F5BD072AB1BC7A001B7587 /* Assets.xcassets in Resources */,
+				54F5BD052AB1BC7A001B7587 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F5BD0E2AB1BC7A001B7587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F5BD182AB1BC7A001B7587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F5BCF62AB1BC7A001B7587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F5BD022AB1BC7A001B7587 /* ViewController.swift in Sources */,
+				54F5BD2E2AB1BE87001B7587 /* LocationTracker.swift in Sources */,
+				54F5BCFE2AB1BC7A001B7587 /* AppDelegate.swift in Sources */,
+				54F5BD002AB1BC7A001B7587 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F5BD0C2AB1BC7A001B7587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F5BD162AB1BC7A001B7587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54F5BD122AB1BC7A001B7587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F5BCF92AB1BC7A001B7587 /* roam-ios-pubsub-example */;
+			targetProxy = 54F5BD112AB1BC7A001B7587 /* PBXContainerItemProxy */;
+		};
+		54F5BD1C2AB1BC7A001B7587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F5BCF92AB1BC7A001B7587 /* roam-ios-pubsub-example */;
+			targetProxy = 54F5BD1B2AB1BC7A001B7587 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54F5BD032AB1BC7A001B7587 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F5BD042AB1BC7A001B7587 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54F5BD082AB1BC7A001B7587 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F5BD092AB1BC7A001B7587 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54F5BD222AB1BC7A001B7587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54F5BD232AB1BC7A001B7587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54F5BD252AB1BC7A001B7587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "roam-ios-pubsub-example/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Angel;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Roam Enable collects location data for efficient emergency management and tracking even when the app is closed or not in use.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Roam Enable collects location data for efficient emergency management and tracking even when the app is closed or not in use.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Roam Enable collects location data for efficient emergency management and tracking even when the app is closed or not in use.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Roam Enable collects location data for efficient emergency management and tracking even when the app is closed or not in use.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		54F5BD262AB1BC7A001B7587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "roam-ios-pubsub-example/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Angel;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Roam Enable collects location data for efficient emergency management and tracking even when the app is closed or not in use.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Roam Enable collects location data for efficient emergency management and tracking even when the app is closed or not in use.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Roam Enable collects location data for efficient emergency management and tracking even when the app is closed or not in use.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Roam Enable collects location data for efficient emergency management and tracking even when the app is closed or not in use.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		54F5BD282AB1BC7A001B7587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roam-ios-pubsub-example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/roam-ios-pubsub-example";
+			};
+			name = Debug;
+		};
+		54F5BD292AB1BC7A001B7587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roam-ios-pubsub-example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/roam-ios-pubsub-example";
+			};
+			name = Release;
+		};
+		54F5BD2B2AB1BC7A001B7587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "roam-ios-pubsub-example";
+			};
+			name = Debug;
+		};
+		54F5BD2C2AB1BC7A001B7587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "roam-ios-pubsub-example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F5BCF52AB1BC7A001B7587 /* Build configuration list for PBXProject "roam-ios-pubsub-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F5BD222AB1BC7A001B7587 /* Debug */,
+				54F5BD232AB1BC7A001B7587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F5BD242AB1BC7A001B7587 /* Build configuration list for PBXNativeTarget "roam-ios-pubsub-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F5BD252AB1BC7A001B7587 /* Debug */,
+				54F5BD262AB1BC7A001B7587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F5BD272AB1BC7A001B7587 /* Build configuration list for PBXNativeTarget "roam-ios-pubsub-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F5BD282AB1BC7A001B7587 /* Debug */,
+				54F5BD292AB1BC7A001B7587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F5BD2A2AB1BC7A001B7587 /* Build configuration list for PBXNativeTarget "roam-ios-pubsub-exampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F5BD2B2AB1BC7A001B7587 /* Debug */,
+				54F5BD2C2AB1BC7A001B7587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D69596122ACFD11A00C30CCA /* XCRemoteSwiftPackageReference "roam-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roam-ai/roam-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 0.1.15;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D69596132ACFD11A00C30CCA /* roam-ios */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D69596122ACFD11A00C30CCA /* XCRemoteSwiftPackageReference "roam-ios" */;
+			productName = "roam-ios";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 54F5BCF22AB1BC7A001B7587 /* Project object */;
+}
